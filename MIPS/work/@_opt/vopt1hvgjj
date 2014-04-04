@@ -1,0 +1,43 @@
+library verilog;
+use verilog.vl_types.all;
+entity IDEX is
+    port(
+        clk             : in     vl_logic;
+        memtoreg        : in     vl_logic;
+        reg_write       : in     vl_logic;
+        mem_read        : in     vl_logic;
+        mem_write       : in     vl_logic;
+        reg_dst         : in     vl_logic;
+        alusrc_a        : in     vl_logic;
+        alusrc_b        : in     vl_logic_vector(1 downto 0);
+        aluop           : in     vl_logic_vector(2 downto 0);
+        pc_plus2        : in     vl_logic_vector(15 downto 0);
+        branch          : in     vl_logic;
+        jump            : in     vl_logic;
+        halt            : in     vl_logic;
+        read_data1      : in     vl_logic_vector(15 downto 0);
+        read_data2      : in     vl_logic_vector(15 downto 0);
+        sign_extend     : in     vl_logic_vector(15 downto 0);
+        intr_rt         : in     vl_logic_vector(2 downto 0);
+        instr_rd        : in     vl_logic_vector(2 downto 0);
+        jump_addr       : in     vl_logic_vector(11 downto 0);
+        memtoreg_reg    : out    vl_logic;
+        reg_write_reg   : out    vl_logic;
+        branch_reg      : out    vl_logic;
+        jump_reg        : out    vl_logic;
+        mem_read_reg    : out    vl_logic;
+        mem_write_reg   : out    vl_logic;
+        reg_dst_reg     : out    vl_logic;
+        alusrc_a_reg    : out    vl_logic;
+        alusrc_b_reg    : out    vl_logic_vector(1 downto 0);
+        aluop_reg       : out    vl_logic_vector(2 downto 0);
+        pc_plus2_reg    : out    vl_logic_vector(15 downto 0);
+        read_data1_reg  : out    vl_logic_vector(15 downto 0);
+        halt_reg        : out    vl_logic;
+        read_data2_reg  : out    vl_logic_vector(15 downto 0);
+        sign_extend_reg : out    vl_logic_vector(15 downto 0);
+        intr_rt_reg     : out    vl_logic_vector(2 downto 0);
+        instr_rd_reg    : out    vl_logic_vector(2 downto 0);
+        jump_addr_reg   : out    vl_logic_vector(11 downto 0)
+    );
+end IDEX;

@@ -1,0 +1,120 @@
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-vq100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3s250e-vq100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx45-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xa6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx45-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xa6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -mt off mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx45-csg324-3 mips.ngc mips.ngd  
+map -intstyle ise -p xa6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/MIPS/MIPS/mips.xst" -ofn "D:/MyCoder/MIPS/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xa3s100e-vqg100-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-vqg100-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "D:/MyCoder/ISE_My/CA/MIPS/mips.xst" -ofn "D:/MyCoder/ISE_My/CA/MIPS/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xa3s100e-cpg132-4 mips.ngc mips.ngd  
+map -intstyle ise -p xa3s100e-cpg132-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 

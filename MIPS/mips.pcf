@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Sat Apr 20 00:27:14 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "ifid_en" LOCATE = SITE "M11" LEVEL 1;
+COMP "pc_en" LOCATE = SITE "M5" LEVEL 1;
+COMP "idex_en" LOCATE = SITE "P7" LEVEL 1;
+COMP "rst" LOCATE = SITE "A7" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,5 @@
+set -tmpdir "D:/MyCoder/ISE_My/CA/MIPS/MIPS/xst/projnav.tmp"
+set -xsthdpdir "D:/MyCoder/ISE_My/CA/MIPS/MIPS/xst"
+elaborate
+-ifn instr_memory.prj
+-ifmt mixed

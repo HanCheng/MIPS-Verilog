@@ -1,0 +1,6 @@
+
+NET "clk" LOC = B8;
+NET "rst" LOC = A7;
+NET "pc_en" LOC = M5;
+NET "ifid_en" LOC = M11;
+NET "idex_en" LOC = P7;

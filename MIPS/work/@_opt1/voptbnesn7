@@ -1,0 +1,258 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\MyCoder\ISE_My\CA\MIPS
+T_opt
+VT:H4Ii5f2L@74B86K?9Zk1
+04 7 4 work tb_mips fast 0
+=1-20689d065988-51536110-c8-1bb4
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dD:\MyCoder\ISE_My\CA\MIPS
+T_opt1
+VAURoF^NL5nDE6@=a:baKm2
+04 12 4 work instr_memory fast 0
+=1-20689d065988-51536668-3e4-10b0
+R1
+n@_opt1
+R2
+valu
+!s100 jgz@YOn6C:5JkZ=P3^Tb22
+IXzCa6g?ecR?;heH`Z4nbf2
+Vkd7:mhEaURgOOYV^laV631
+R3
+w1364273310
+8D:/MyCoder/ISE_My/CA/MIPS/alu.v
+FD:/MyCoder/ISE_My/CA/MIPS/alu.v
+L0 3
+Z4 OL;L;10.1c;51
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/alu.v|
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s108 1364420175.474000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/alu.v|
+!i10b 1
+!s85 0
+vcontrol
+!s100 3laWYB3LZU9]B7DX?AS0P1
+IQNL@0[ARfgVhVPY6O5J>Y1
+VF2JB@o2[1^=eYk`1B]BDD2
+R3
+w1364321309
+8D:/MyCoder/ISE_My/CA/MIPS/control.v
+FD:/MyCoder/ISE_My/CA/MIPS/control.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/control.v|
+R5
+!s108 1364420175.708000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/control.v|
+!i10b 1
+!s85 0
+vdata_mem
+!s100 ^3U?l>5SYTbN=jcNW0H:D1
+I4SiR:_TREBo`NURO@?^Ta2
+VG340Z[4>0Zj<>6_9JXzBB1
+R3
+w1364273320
+8D:/MyCoder/ISE_My/CA/MIPS/data_mem.v
+FD:/MyCoder/ISE_My/CA/MIPS/data_mem.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/data_mem.v|
+R5
+!s108 1364420175.895000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/data_mem.v|
+!i10b 1
+!s85 0
+vEXMEM
+!s100 T?FN?M7j0YMEzMCQT78>U0
+Ic;HJ`?AQjD6n^EfB:Y=7`2
+V<kmYTl?S_H6[Gz9`[g2;k2
+R3
+w1364273315
+8D:/MyCoder/ISE_My/CA/MIPS/EXMEM.v
+FD:/MyCoder/ISE_My/CA/MIPS/EXMEM.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/EXMEM.v|
+R5
+n@e@x@m@e@m
+!s108 1364420176.067000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/EXMEM.v|
+!i10b 1
+!s85 0
+vIDEX
+!s100 49WXWZX>5[Z^KfzJ[_N6^0
+IRdk6J>S6S^;;_=AT2Lb[X0
+VO@U3bX9ebfE_15=ZKV8`o3
+R3
+w1364321383
+8D:/MyCoder/ISE_My/CA/MIPS/IDEX.V
+FD:/MyCoder/ISE_My/CA/MIPS/IDEX.V
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/IDEX.V|
+R5
+n@i@d@e@x
+!s108 1364420176.239000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/IDEX.V|
+!i10b 1
+!s85 0
+vIFID
+!s100 z2kPLi1HFPLCf8Q=P:fcQ0
+IY;TZV?ffRU[mFg@ZicQ?91
+VJd47EKoL]dCojJ3Q?_U=b2
+R3
+Z6 w1364273326
+8D:/MyCoder/ISE_My/CA/MIPS/IFID.v
+FD:/MyCoder/ISE_My/CA/MIPS/IFID.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/IFID.v|
+R5
+n@i@f@i@d
+!s108 1364420176.426000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/IFID.v|
+!i10b 1
+!s85 0
+vinstr_memory
+!s100 bEMg;d^SV?DnUngPQHYU51
+IM?M;k4o7gT];Q9h]]UfcX2
+VS[32mNHfJh9BOYLa]@jo31
+R3
+w1364273292
+8D:/MyCoder/ISE_My/CA/MIPS/inst_memory.v
+FD:/MyCoder/ISE_My/CA/MIPS/inst_memory.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/inst_memory.v|
+R5
+!s108 1364420176.582000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/inst_memory.v|
+!i10b 1
+!s85 0
+vMEMWB
+!s100 2TYTMljWUdbbFRJQU8eP;1
+I6CF9Y7;:_3`M8c>VB^k]c0
+V;mjBao@Mm9mSPnd1e0P@g1
+R3
+w1364322489
+8D:/MyCoder/ISE_My/CA/MIPS/MEMWB.v
+FD:/MyCoder/ISE_My/CA/MIPS/MEMWB.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/MEMWB.v|
+R5
+n@m@e@m@w@b
+!s108 1364420176.753000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/MEMWB.v|
+!i10b 1
+!s85 0
+vmips
+!s100 YK=geFO6GIe2ITHAzannQ1
+I[K@[LbI09NON]MXehdkT82
+VB:Tk6<zZAReamPWN>j1jZ0
+R3
+w1364364319
+8D:/MyCoder/ISE_My/CA/MIPS/mips.v
+FD:/MyCoder/ISE_My/CA/MIPS/mips.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/mips.v|
+R5
+!s108 1364420176.972000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/mips.v|
+!i10b 1
+!s85 0
+vregfile
+!s100 Pk]c=>E9?3b0Ci7?aGd^@0
+IlUI]em:`^DR_NzRzQn5zF2
+VDQ@<POPYFYIK=@BoN]4:g1
+R3
+R6
+8D:/MyCoder/ISE_My/CA/MIPS/regfile.v
+FD:/MyCoder/ISE_My/CA/MIPS/regfile.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/regfile.v|
+R5
+!s108 1364420177.206000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/regfile.v|
+!i10b 1
+!s85 0
+vsign_extender
+!s100 T4^G_;5zVYEIgn9ZX3GMQ0
+Ikm25Ed_7LWCk2]HP8Glk62
+VH8TB;6HJJK<Ydf:>UKAbY0
+R3
+R6
+8D:/MyCoder/ISE_My/CA/MIPS/sign_extender.v
+FD:/MyCoder/ISE_My/CA/MIPS/sign_extender.v
+L0 3
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/sign_extender.v|
+R5
+!s108 1364420177.424000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/sign_extender.v|
+!i10b 1
+!s85 0
+vtb_inst_mem
+!s100 ]l:F1Sfm?h64XcUFb]A[j1
+I1NnBG3P23XSZPUNB?cUem1
+Vnn;UPa5@z_6X?hM7mGZAF3
+R3
+w1364419995
+8D:/MyCoder/ISE_My/CA/MIPS/tb_inst_mem.v
+FD:/MyCoder/ISE_My/CA/MIPS/tb_inst_mem.v
+L0 4
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/tb_inst_mem.v|
+R5
+!s108 1364420177.814000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/tb_inst_mem.v|
+!i10b 1
+!s85 0
+vtb_mips
+!s100 [T1Ufj`fGP@K_F`HXX95N3
+IfC=F7B]:B<LTOSQd]VT>A3
+VSm<JK;36750P6?VzmU2CY3
+R3
+w1364394109
+8D:/MyCoder/ISE_My/CA/MIPS/tb_mips.v
+FD:/MyCoder/ISE_My/CA/MIPS/tb_mips.v
+L0 5
+R4
+r1
+31
+!s90 -reportprogress|300|-work|work|D:/MyCoder/ISE_My/CA/MIPS/tb_mips.v|
+R5
+!i10b 1
+!s85 0
+!s108 1364420178.157000
+!s107 D:/MyCoder/ISE_My/CA/MIPS/tb_mips.v|

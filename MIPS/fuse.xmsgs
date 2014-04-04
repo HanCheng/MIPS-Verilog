@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="485" delta="unknown" >"D:/MyCoder/ISE_My/CA/MIPS/alu.v" Line 29: Illegal format specifier <arg fmt="%c" index="1"> </arg> for <arg fmt="%s" index="2">display</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/MyCoder/ISE_My/CA/MIPS/alu.v" Line 81: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/MyCoder/ISE_My/CA/MIPS/tb_mips.v" Line 9: Port <arg fmt="%s" index="1">pc_en</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"D:/MyCoder/ISE_My/CA/MIPS/alu.v" Line 81: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+</messages>
+
